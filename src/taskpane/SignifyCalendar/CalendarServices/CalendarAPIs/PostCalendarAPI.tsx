@@ -81,7 +81,7 @@ const PostCalendarAPI = (formData, listValues, pID, mID, type, pStatus, mDescrip
 
         const myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
-        // myHeaders.append("Authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MjA2MDc4NDcsImp0aSI6ImorVVwvc2pWU2lyZXE2dnZJREZJT1FnPT0iLCJpc3MiOiJodHRwczpcL1wvZGVtby5zaWduaWZ5Y3JtLm5ldFwvb3V0bG9vay1hZGRpbiIsIm5iZiI6MTcyMDYwNzg0NywiZXhwIjoxNzIzMTk5ODQ3LCJkYXRhIjp7InVzZXJOYW1lIjoiSW50ZXItU2FsZXMwMyIsInVzZXJJZCI6IjQ3ZGY2NjFkLWJjZmUtNDU3MC02NjIwLTVkNWE4MmMyMjViOCIsImN1cnJlbmN5IjoiVGhhaSBCYWh0IiwiZGF0ZV9mb3JtYXQiOiJkLW0tWSIsInRpbWVfZm9ybWF0IjoiSDppIn19.8GBfBrH5cHlsJ4JHgwvHL4dH1AADjzz6itR00WL7bgCVsYWhQFkLICZ1M6yfRPBWE6GdXrDKfvfiX_LBYliPNg");
+
         myHeaders.append("Authorization", `Bearer ${LoginToken}`)
         const raw = JSON.stringify({
             "Api-Key": API_Key,
