@@ -27,7 +27,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://serveradmin-git.github.io/src/taskpane/taskpane.html"/>
+        <SourceLocation DefaultValue="https://serveradmin-git.github.io/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -157,8 +157,8 @@
           <bt:Image id="Icon.80x80" DefaultValue="https://serveradmin-git.github.io/assets/Signify-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="Commands.Url" DefaultValue="https://serveradmin-git.github.io/src/commands/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://serveradmin-git.github.io/src/taskpane/taskpane.html"/>
+          <bt:Url id="Commands.Url" DefaultValue="https://serveradmin-git.github.io/commands.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="https://serveradmin-git.github.io/taskpane.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="SignifyCRM"/>
